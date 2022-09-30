@@ -7,7 +7,30 @@
 
 Необходимо создать репозиторий со следующей архитектурой:
 
-При этом, необходимо в каждой ветке создать как мининум по 4 коммита. 
+# Ветка main (Основная ветка)
+machine_learning_lib
+    ├── classification.py
+    ├── regression.py
+    └── docs
+         └── README.md
+
+# Ветка develop (Ветка разработки)
+machine_learning_lib
+    ├── classification.py
+    ├── regression.py
+    └── docs
+         └── README.md
+    └── compute.py
+
+# Ветка feature (Ветка для новых функций)
+machine_learning_lib
+    ├── classification.py
+    ├── regression.py
+    └── docs
+         └── README.md
+    └── clustering.py
+
+
 
 - Создайте репозиторий внутри папки (инициализация). 
 
